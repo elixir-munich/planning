@@ -1,31 +1,31 @@
 name: Talk Proposal
-description: Suggestion for a talk
+description: Submit your Talk Proposal
 title: "Talk Proposal: #{your title here}"
 labels: [Talk]
 body:
   - type: input
     attributes:
       label: Full name
-      placeholder: "José Valim"
+      placeholder: "your name"
 
   - type: input
     attributes:
       label: GitHub profile
-      placeholder: "https://github.com/josevalim"
+      placeholder: "https://github.com/<your_github_username>"
       
   - type: input
     attributes:
       label: Social link
-      placeholder: "https://bsky.app/profile/josevalim.bsky.social"
+      placeholder: "your social media link"
 
   - type: input
     attributes:
-      label: "Proposal type: talk or lightning talk"
-      placeholder: "talk"
+      label: "Proposal type"
+      placeholder: "Talk or Lightning Talk"
 
   - type: input
     attributes:
-      label: "Presentation Title"
+      label: "Title"
       placeholder: "Your talk title here"
       
   - type: textarea
