@@ -1,0 +1,47 @@
+name: Talk Proposal
+description: Suggestion for a talk
+title: "Talk Proposal: #{your title here}"
+labels: [Talk]
+body:
+  - type: input
+    attributes:
+      label: Full name
+      placeholder: "José Valim"
+
+  - type: input
+    attributes:
+      label: GitHub profile
+      placeholder: "https://github.com/josevalim"
+      
+  - type: input
+    attributes:
+      label: Social link
+      placeholder: "https://bsky.app/profile/josevalim.bsky.social"
+
+  - type: input
+    attributes:
+      label: "Proposal type: talk or lightning talk"
+      placeholder: "talk"
+
+  - type: input
+    attributes:
+      label: "Presentation Title"
+      placeholder: "Your talk title here"
+      
+  - type: textarea
+    attributes:
+      label: Description
+      placeholder: "Your talk description here"
+
+  - type: dropdown
+    attributes:
+      label: Preferred Meetup you would like to present in
+      options: 
+        - "Any"
+        - "Next"
+        - "January/February"
+        - "March/April"
+        - "May/June"
+        - "July/August"
+        - "September/October"
+        - "November/December"
